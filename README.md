@@ -1,7 +1,13 @@
 An Introduction to Python Programming
 =====================================
 
-[http://learn.adicu.com/webdev](http://learn.adicu.com/webdev)
+[learn.adicu.com/webdev](http://learn.adicu.com/webdev)
+
+Learn to program in Python!  This curriculum is designed to be accesible to anyone who has programmed in at least on language, and is interested in learning to program in Python.
+
+Python is a high-level scripting language that is easy and fun to program in.  It is also a great option for learning wev programming
+
+
 
 #### Building
 
@@ -10,6 +16,12 @@ Run the following in the root directory:
     ./build.sh
 
 This generates `.html` files to be viewed in a browser.
+
+### Deploying
+
+Run the following command to deploy to [learn.adicu.com/webdev](http://learn.adicu.com/webdev) (requires SCP and access to adi-website on SSH):
+
+    ./deploy.sh
 
 #### Solutions
 

@@ -1,0 +1,13 @@
+# python
+lib
+include
+bin
+
+# utils
+makeMD.py
+
+# credentials
+settings.dev
+
+# compiled files
+curriculum.html

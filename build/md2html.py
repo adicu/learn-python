@@ -262,6 +262,7 @@ class MarkdownCompiler():
         if not title:
             fn = self.mdfile.name
             title = 'untitled' if not fn else os.path.splitext(os.path.basename(fn))[0]
+        title.replace('.md', '')
         return '<title>%s</title>' % title
 
     def modify_body(self, body):

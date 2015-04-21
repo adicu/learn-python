@@ -153,7 +153,7 @@ We can negate these values using the word `not`:
 
 ```python
 not True # False
-not False # true
+not False # True
 ```
 
 In addition, we have one more datatype, called `None`. It is similar to `null` in Java, and can be used to check whether an object contains anything. It is seen as being equal to `False`.
